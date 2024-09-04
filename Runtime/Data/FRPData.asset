@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 407526e746bc38a468c4a8042784402d, type: 3}
+  m_Name: FRPData
+  m_EditorClassIdentifier: 
+  bloomShader: {fileID: 4800000, guid: b465a6a61cb2fb94ca2429dd5744f1c0, type: 3}
+  cameraMotionVectorsShader: {fileID: 4800000, guid: 6970df2dadf589f4296169e5075b5cd2,
+    type: 3}
+  objectMotionVectorsShader: {fileID: 4800000, guid: 1613283c0345771488720d25b8404822,
+    type: 3}
+  copyDepthShader: {fileID: 4800000, guid: d6dae50ee9e1bfa4db75f19f99355220, type: 3}
+  dualKawaseBlurShader: {fileID: 4800000, guid: bdacbdf2ab4b24640985646e0c47ae4b,
+    type: 3}
+  fURPVolumeUberShader: {fileID: 4800000, guid: 090d8f73081a54f4a9f160c20f0e9f9a,
+    type: 3}
+  hbaoShader: {fileID: 4800000, guid: ccad504951a9c46409aa8521e78f00b2, type: 3}
+  normalReconstructShader: {fileID: 4800000, guid: 3505760407b696340a6b315b3c6fd886,
+    type: 3}
+  ssgiShader: {fileID: 4800000, guid: 6e77f592423b6174ea308521b15e4637, type: 3}
+  areaLightSourceShader: {fileID: -6465566751694194690, guid: 09fe9be6e756ee84ca2e276681b8d87f,
+    type: 3}
+  GaussinBlurShader: {fileID: 4800000, guid: 7e8fd89e2ff83ea47b946ea85312d08e, type: 3}
+  StencilDeferredShader: {fileID: 4800000, guid: b946083c6e3e11a4d839a764f174dc71,
+    type: 3}
+  URPStencilDeferredShader: {fileID: 4800000, guid: e9155b26e1bc55942a41e518703fe304,
+    type: 3}
+  gaussianDepthOfFieldPS: {fileID: 4800000, guid: 24c83ced083022a44b4c3d01a888f0e9,
+    type: 3}
+  bokehDepthOfFieldPS: {fileID: 4800000, guid: 0c47da969329e4544a3751509fd85a48, type: 3}
+  blitHDROverlay: {fileID: 4800000, guid: a89bee29cffa951418fc1e2da94d1959, type: 3}
+  blueNoiseTexture: {fileID: 2800000, guid: 5e4835b06dfa97a41abbe2478c1e480b, type: 3}
+  FsrShaders:
+    computeLuminancePyramidPass: {fileID: 7200000, guid: d253be05abcdc80428503d3e4cce3a36,
+      type: 3}
+    reconstructPreviousDepthPass: {fileID: 7200000, guid: 4f59e5b9179d74844ae06a30ae1e0629,
+      type: 3}
+    depthClipPass: {fileID: 7200000, guid: 20e44016ed34b0d4b8de499d1b566c69, type: 3}
+    lockPass: {fileID: 7200000, guid: a135306e6d1857e43a86ef20db2a47fe, type: 3}
+    accumulatePass: {fileID: 7200000, guid: c9b45f0ae7673694ba57a4aadfe212e9, type: 3}
+    sharpenPass: {fileID: 7200000, guid: 7aaf5cfff022de2499e9b0412f947f6c, type: 3}
+    autoGenReactivePass: {fileID: 7200000, guid: 5716b91fdaa4e9e439df6b96a796fe6e,
+      type: 3}
+    tcrAutoGenPass: {fileID: 7200000, guid: 75cdc6ef23f08ed498d4da511923fcea, type: 3}

@@ -1,0 +1,22 @@
+{
+  "name": "com.tateam.frp",
+  "description": "FRP is a URP Pipeline Extension, Provide More Rendering Features. \n\nFRP is a very flexible system and does not require any code changes to the URP Package.\n\nDocument: \n\rhttps://gitlab-u3d.internal.unity.cn/dongjun.huang/fernrender/-/wikis/home\n\nDevelopers:\nDongjun.Huang\nYu.Su",
+  "version": "1.2.1",
+  "unity": "2022.3",
+  "displayName": "FRP",
+  "dependencies": {
+    "com.unity.render-pipelines.core": "14.0.8",
+    "com.unity.shadergraph": "14.0.8",
+    "com.tateam.shadergraph": "1.1.0"
+  },
+  "keywords": [
+    "graphics",
+    "performance",
+    "rendering",
+    "mobile",
+    "render"
+  ],
+  "author": {
+    "name": "TA Team"
+  }
+}
